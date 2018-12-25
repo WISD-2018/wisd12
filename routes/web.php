@@ -48,4 +48,6 @@ Route::get('/dd/d1', function () {
 Route::get('/dd/d2', function () {
     return view('dd.d2');
 });
-
+Route::get('/ee/e1', function () {
+    return view('ee.e1');
+});
