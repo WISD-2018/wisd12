@@ -48,4 +48,7 @@ Route::get('/dd/d1', function () {
 Route::get('/dd/d2', function () {
     return view('dd.d2');
 });
+Route::get('/ff/f1', function () {
+    return view('ff.f1');
+});
 
